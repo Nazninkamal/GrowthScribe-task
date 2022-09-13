@@ -25,7 +25,7 @@ const Subscribe = () => {
     return (
         
         <Grid item xs={4} sm={4} md={5} lg={5}  sx={{backgroundColor: "rgb(41 46 63)",textAlign: "start" }}>
-                <Box sx={{fontSize:"25px", fontWeight: 900, color:"white", display:"flex", justifyContent:"end"}}><ClearIcon/></Box>
+                <Box sx={{color:"white", display:"flex", justifyContent:"end"}}><ClearIcon sx={{size:"large"}}/></Box>
                  <Box sx={{px:4}}>
                     <Typography sx={{color:"rgb(83 218 178)", my:1}}>SUBSCRIBE AND GET YOUR BONUS!</Typography>
              
